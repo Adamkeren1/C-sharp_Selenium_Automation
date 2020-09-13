@@ -54,8 +54,8 @@ namespace Ofakim360Final_1
         {
             PageLogin pageLogin = new PageLogin();
             driver.Navigate().GoToUrl(url);
-            EmailFieldElem.SendKeys("adam@feanex.com");
-            PasswordFieldElem.SendKeys("Ofakim1!");
+            EmailFieldElem.SendKeys("***");
+            PasswordFieldElem.SendKeys("***!");
             
             IWebElement Login_Button = driver.FindElement(By.XPath("html/body/app-root/div[1]/div[1]/div/app-login/div/div[1]/div/form/div[4]/button"));
         }
