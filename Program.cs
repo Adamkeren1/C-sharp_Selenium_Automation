@@ -146,7 +146,7 @@ namespace Ofakim360Final_1
 
         static public void ProdLogin() 
         {
-            pageloginbackoffice.PerformLoginAction("https://online.evenedge.com/", "adam@ofakim-group.com", "Ofakim1!", driver);
+            pageloginbackoffice.PerformLoginAction("https://online.evenedge.com/", "***", "***", driver);
             //pagedashboard.dissmisalert();
             Thread.Sleep(1500);
             Console.WriteLine("BO Prod login succeeded");
