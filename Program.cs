@@ -81,13 +81,13 @@ namespace Ofakim360Final_1
 
         static void KycRegisterTest()
         {
-            pageRegistration1.NavigateThrowPage("https://www.feanex.com/welcome","kycautotest1@ofakim.com", "kycautotest1@ofakim.com", "Private");
+            pageRegistration1.NavigateThrowPage("https://www.feanex.com/welcome","***", "***", "Private");
         }
 
         static public void StageBOLoginAndCatalog()
         {
 
-            pageloginbackoffice.PerformLoginAction("https://ofakim-g.com/", "adam@ofakim-group.com", "Ofakim1!", driver);
+            pageloginbackoffice.PerformLoginAction("https://ofakim-g.com/", "****", "***", driver);
             pageloginbackoffice.GoToHedgeCatalog();
             pageBackOfiiceCatalog.RunCatalog100();
 
@@ -137,7 +137,7 @@ namespace Ofakim360Final_1
 
         static public void StageLogin()
         {
-            pageLogin.PerformLoginAction("https://demo.ofakim.ai/login", "ofakimqa1@gmail.com", "Ofakim1!", driver);
+            pageLogin.PerformLoginAction("https://demo.ofakim.ai/login", "***", "***", driver);
           //  pagedashboard.dissmisalert();
             Thread.Sleep(4500);
             Console.WriteLine("Stage Login action succeeded");
