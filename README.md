@@ -1,4 +1,4 @@
-# C-sharp_Selenium_Automation
+# C#_Selenium_Automation
 
 this is a C# selenium based automation project.
 
